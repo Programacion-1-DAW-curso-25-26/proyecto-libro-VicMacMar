@@ -15,6 +15,7 @@ public class edades {
             System.out.println(pareja.getKey());
             System.out.println(" "+pareja.getValue());
             System.out.println("Texto");
+            //Hola
         }
     }
 }
