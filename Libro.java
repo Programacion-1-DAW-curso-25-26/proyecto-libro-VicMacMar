@@ -1,9 +1,37 @@
 public class Libro {
 
-    public String titulo;
-    public String autor;
-    public int numPaginas;
-    public int valoracion;
+    private String titulo;
+    private String autor;
+    private int numPaginas;
+    private int valoracion;
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public int getNumPaginas() {
+        return numPaginas;
+    }
+
+    public void setNumPaginas(int numPaginas) {
+        this.numPaginas = numPaginas;
+    }
+
+    public int getValoracion() {
+        return valoracion;
+    }
+
+    public void setValoracion(int valoracion) {
+        this.valoracion = valoracion;
+    }
 
     public void presentacion(){
         System.out.println("El titulo del libro es: "+titulo);
