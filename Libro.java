@@ -5,6 +5,13 @@ public class Libro {
     private int numPaginas;
     private int valoracion;
 
+    public Libro(String titulo, String autor, int numPaginas, int valoracion) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.numPaginas = numPaginas;
+        this.valoracion = valoracion;
+    }
+
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
